@@ -24,10 +24,26 @@ body {
 #img {
   width: 100%;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 3%;
+  border: ;
+  background: url("img/apartamento-qualquer-banner-banner.gif") fixed no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 #minha_foto {
   height: 400px;
   border-radius: 90%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#licoes_aprendidas{
+  display: inline-block;
+}
+
+#licoes_a_aprender{
+  display: inline-block;
 }
