@@ -13,10 +13,11 @@ table , th , td {
   top: 0;
   position: fixed;
   background-color: rgb(57, 50, 104);
-  padding-right: 1%;
+  text-align: center;
   width: 100%;
   margin: -10px;
-  text-align: center;
+  padding-right: 2px;
+  border: 0;
 }
 
 #titulo {
@@ -27,10 +28,8 @@ table , th , td {
 }
 
 #img {
-  width: 100%;
   text-align: center;
   margin: -10px;
-  padding-right: 3%;
   margin-top: 3%;
   border: 0;
   background: url('img/apartamento-qualquer-banner-banner.gif') fixed no-repeat;
@@ -72,5 +71,14 @@ table , th , td {
 
 #tabela {
   width: 100%;
+  margin-top: 5%;
   background-color: rgb(219, 219, 219);
+}
+
+#rodape {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(37, 37, 37);
 }
