@@ -48,3 +48,15 @@ body {
 .lado-direito {
   display: inline-block;
 }
+
+#link_perfil {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+#link_perfil:hover {
+  color: greenyellow;
+}
