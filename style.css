@@ -71,7 +71,7 @@ table , th , td {
 #tabela {
   width: 100%;
   margin-top: 5%;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(152, 142, 214);
 }
 
 #desc-aside {
@@ -85,6 +85,24 @@ table , th , td {
   color: white;
   text-align: center;
   background-color: rgb(37, 37, 37);
+}
+
+#licoes_a_aprender {
+  list-style: none;
+  margin-right: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid rgb(57, 50, 104);
+  border-style: dashed;
+}
+
+#licoes_aprendidas {
+  list-style-type: decimal-leading-zero;
+  margin-left: 20%;
+  padding-left: 50px;
+  padding-right: 5px;
+  border: 2px solid rgb(57, 50, 104);
+  border-style: dashed;
 }
 
 #links {
