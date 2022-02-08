@@ -9,6 +9,7 @@ body {
   top: 0;
   position: fixed;
   background-color:#393268;
+  padding-right: 1%;
   width: 100%;
   margin: -10px;
   text-align: center;
@@ -24,7 +25,10 @@ body {
 #img {
   width: 100%;
   text-align: center;
+  margin: -10px;
+  padding-right: 3%;
   margin-top: 3%;
+  border: 0;
   background: url("img/apartamento-qualquer-banner-banner.gif") fixed no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -39,10 +43,10 @@ body {
   text-align: center;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   display: inline-block;
 }
