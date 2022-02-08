@@ -1,8 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Dongle, sans-serif;
+  font-family: Dongle, serif;
   font-size: 40px;
   line-height: 95%;
+}
+
+table , th , td {
+  border: 1px solid black;
 }
 
 #cabecalho {
@@ -47,6 +51,7 @@ body {
 
 .lado-direito {
   display: inline-block;
+  margin-left: 40%;
 }
 
 #link_perfil {
@@ -59,4 +64,13 @@ body {
 
 #link_perfil:hover {
   color: greenyellow;
+}
+
+#description {
+  margin-top: 3%;
+}
+
+#tabela {
+  width: 100%;
+  background-color: rgb(219, 219, 219);
 }
